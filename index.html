@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Портфолио Эдгара Мавликеева — маркетинговые стратегии, SMM, PR, контент и события."
+    />
+    <meta name="theme-color" content="#f2efe8" />
+    <title>Эдгар Мавликеев — маркетинг, медиа и события</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23cf1717'/%3E%3Cpath d='M12 13h19v8H21v6h9v8h-9v8h10v8H12V13Zm24 0h7l5 15 5-15h7v38h-9V34l-3 10-3-10v17h-9V13Z' fill='white'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Эдгар Мавликеев — на главную">
+        <span class="brand-name">
+          <span>Эдгар</span>
+          <span>Мавликеев</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span>
+        <span class="sr-only">Открыть меню</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+        <a href="#work">Проекты</a>
+        <a href="#about">Обо мне</a>
+        <a href="#expertise">Компетенции</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+
+      <a class="header-telegram" href="https://t.me/edgarmavlikeev" target="_blank" rel="noreferrer">
+        Telegram ↗
+      </a>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Маркетинг · контент · PR · события</p>
+          <h1 id="hero-title">
+            <span>Эдгар</span>
+            <span>Мавликеев</span>
+          </h1>
+          <p class="hero-script">привет, это моё портфолио</p>
+          <p class="hero-lead">
+            Я маркетолог из Казани. Помогаю командам понятно рассказывать о себе:
+            продумываю стратегию, веду соцсети, работаю со СМИ и собираю события.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">Смотреть кейсы <span>↓</span></a>
+            <a
+              class="button button-ghost"
+              href="https://drive.google.com/file/d/1s0WRw7C1QlTjIlIeuAHbn6xVJx0DKmjX/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Резюме <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Портрет Эдгара Мавликеева">
+          <div class="hero-art-card">
+            <p class="hero-side-label">MARKETING · MEDIA · EVENTS</p>
+            <img src="assets/photos/s1-10-web.webp" alt="Эдгар Мавликеев" />
+            <div class="hero-year">20<br />26</div>
+          </div>
+          <p class="hero-note">Казань → проекты по всей России</p>
+        </div>
+
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>СТРАТЕГИЯ ✦ SMM ✦ PUBLIC RELATIONS ✦ КОНТЕНТ ✦ СОБЫТИЯ ✦</span>
+          <span>СТРАТЕГИЯ ✦ SMM ✦ PUBLIC RELATIONS ✦ КОНТЕНТ ✦ СОБЫТИЯ ✦</span>
+        </div>
+      </div>
+
+      <section class="clients section-shell" id="clients" aria-labelledby="clients-title">
+        <div class="clients-heading reveal">
+          <div>
+            <p class="script-kicker">С кем я работал</p>
+            <h2 id="clients-title">Команды и проекты</h2>
+          </div>
+          <p>
+            Компании и команды из разных сфер — от медиа и ресторанов
+            до образования, бизнеса и городских проектов.
+          </p>
+        </div>
+
+        <div
+          class="client-categories reveal"
+          id="client-categories"
+          data-client-groups
+          aria-label="Компании и проекты, с которыми работал Эдгар"
+        ></div>
+        <button
+          class="clients-toggle"
+          type="button"
+          data-clients-toggle
+          aria-controls="client-categories"
+          aria-expanded="false"
+        >
+          <span>Показать все компании</span>
+          <span aria-hidden="true">↓</span>
+        </button>
+      </section>
+
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <div class="section-index reveal">01 / ОБО МНЕ</div>
+        <div class="about-grid">
+          <div class="about-portrait reveal">
+            <img src="assets/photos/s2-1-web.webp" alt="Портрет Эдгара на светлом фоне" />
+            <p>Работаю с брендами, институциями<br />и командами</p>
+          </div>
+
+          <div class="about-copy reveal">
+            <p class="script-kicker">Немного обо мне</p>
+            <h2 id="about-title">Мне нравится разбираться в задаче и собирать всё в систему.</h2>
+            <p class="about-intro">
+              Я работал в агентствах, медиа и внутри команд. Обычно подключаюсь там,
+              где нужно запустить проект с нуля или привести в порядок то, что уже есть:
+              стратегию, соцсети, визуальный язык, PR и события.
+            </p>
+            <div class="about-details">
+              <div>
+                <span>Фокус</span>
+                <p>Маркетинговые стратегии, SMM, PR, контент и события</p>
+              </div>
+              <div>
+                <span>Подход</span>
+                <p>Сначала задаю вопросы и разбираюсь в задаче, затем предлагаю решение</p>
+              </div>
+              <div>
+                <span>Формат</span>
+                <p>Могу подключиться к отдельной задаче или вести проект целиком</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="expertise section-shell" id="expertise" aria-labelledby="expertise-title">
+        <div class="section-index reveal">02 / КОМПЕТЕНЦИИ</div>
+        <div class="expertise-heading reveal">
+          <h2 id="expertise-title">Что я умею.</h2>
+          <p>
+            Можно позвать меня на проект целиком или на отдельный этап.
+            Ниже — задачи, с которыми я работаю чаще всего.
+          </p>
+        </div>
+
+        <div class="expertise-list">
+          <article class="expertise-item reveal">
+            <span class="expertise-number">01</span>
+            <h3>Стратегия</h3>
+            <p>Разобраться в контексте, сформулировать позиционирование и составить понятный план.</p>
+            <span class="expertise-arrow">↗</span>
+          </article>
+          <article class="expertise-item reveal">
+            <span class="expertise-number">02</span>
+            <h3>Контент и SMM</h3>
+            <p>Продумать рубрики и визуальный язык, организовать съёмки и наладить выпуск контента.</p>
+            <span class="expertise-arrow">↗</span>
+          </article>
+          <article class="expertise-item reveal">
+            <span class="expertise-number">03</span>
+            <h3>PR и медиа</h3>
+            <p>Найти инфоповоды, познакомить проект со СМИ и блогерами, подготовить пресс-событие.</p>
+            <span class="expertise-arrow">↗</span>
+          </article>
+          <article class="expertise-item reveal">
+            <span class="expertise-number">04</span>
+            <h3>События</h3>
+            <p>Собрать концепцию, программу, партнёров и команду — и провести событие.</p>
+            <span class="expertise-arrow">↗</span>
+          </article>
+        </div>
+
+        <article class="speaker-card reveal">
+          <div class="speaker-card-copy">
+            <p class="script-kicker">Ещё я выступаю</p>
+            <h3>Рассказываю о работе и делюсь тем, что проверил на практике.</h3>
+            <p>
+              Начал выступать в 16 лет. С тех пор проводил встречи InstaMeet в Казани,
+              участвовал в образовательных программах и медиафорумах, работал с Enter и РКИ «Штаб».
+            </p>
+          </div>
+            <img src="assets/selected/speaking-web.webp" alt="Выступления Эдгара Мавликеева" />
+        </article>
+      </section>
+
+      <section class="work section-shell" id="work" aria-labelledby="work-title">
+        <div class="section-index reveal">ИЗБРАННЫЕ ПРОЕКТЫ</div>
+        <div class="work-heading reveal">
+          <div>
+            <p class="script-kicker">Из практики</p>
+            <h2 id="work-title">Проекты, которые могу показать.</h2>
+          </div>
+          <p>
+            Здесь спорт, культура, образование, HoReCa и городские проекты.
+            В каждом кейсе — моя роль, процесс и то, что получилось.
+          </p>
+        </div>
+
+        <div class="filters reveal" role="group" aria-label="Фильтр проектов">
+          <button class="filter is-active" type="button" data-filter="all">Все</button>
+          <button class="filter" type="button" data-filter="complex">Комплексное</button>
+          <button class="filter" type="button" data-filter="smm">SMM</button>
+          <button class="filter" type="button" data-filter="pr">PR</button>
+        </div>
+
+        <div class="projects-grid" data-projects-grid aria-live="polite"></div>
+      </section>
+
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner reveal">
+          <p class="contact-overline">Если вам откликается мой подход</p>
+          <h2 id="contact-title">Давайте<br /><span>познакомимся.</span></h2>
+          <div class="contact-actions">
+            <a class="contact-link" href="https://t.me/edgarmavlikeev" target="_blank" rel="noreferrer">
+              <span>Telegram</span><span>@edgarmavlikeev ↗</span>
+            </a>
+            <a class="contact-link" href="tel:+79869178380">
+              <span>Телефон</span><span>+7 986 917-83-80 ↗</span>
+            </a>
+            <a
+              class="contact-link"
+              href="https://drive.google.com/file/d/1s0WRw7C1QlTjIlIeuAHbn6xVJx0DKmjX/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Резюме</span><span>Открыть CV ↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <span>© 2026 Эдгар Мавликеев</span>
+      <a href="#top">Наверх ↑</a>
+      <span>Маркетинг · Медиа · События</span>
+    </footer>
+
+    <dialog class="project-dialog" data-project-dialog aria-labelledby="dialog-title">
+      <div class="dialog-shell">
+        <button class="dialog-close" type="button" data-dialog-close aria-label="Закрыть проект">×</button>
+        <div class="dialog-visual">
+          <img data-dialog-image src="" alt="" />
+        </div>
+        <div class="dialog-content">
+          <div class="dialog-meta">
+            <span data-dialog-category></span>
+            <span data-dialog-period></span>
+          </div>
+          <h2 id="dialog-title" data-dialog-title></h2>
+          <p class="dialog-lead" data-dialog-lead></p>
+          <p class="dialog-description" data-dialog-description></p>
+          <div class="dialog-results">
+            <h3>Что получилось</h3>
+            <ul data-dialog-results></ul>
+          </div>
+          <div class="dialog-footer">
+            <span data-dialog-handle></span>
+            <a href="https://t.me/edgarmavlikeev" target="_blank" rel="noreferrer">Написать Эдгару ↗</a>
+          </div>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>
